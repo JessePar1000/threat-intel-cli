@@ -26,4 +26,4 @@ actionable analysis workflow.
 ```bash
 git clone https://github.com/JessePar1000/threat-intel-cli.git
 cd threat-intel-cli
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
