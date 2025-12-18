@@ -34,3 +34,30 @@ This tool requires API keys for VirusTotal and AbuseIPDB.
 Set them as environment variables before running the script.
 
 ### Linux / macOS
+
+```bash
+export VT_API_KEY="your_virustotal_api_key"
+export ABUSEIPDB_API_KEY="your_abuseipdb_api_key"
+```
+
+### Windows (PowerShell)
+
+```powershell
+setx VT_API_KEY "your_virustotal_api_key"
+setx ABUSEIPDB_API_KEY "your_abuseipdb_api_key"
+```
+## Usage
+
+Run the tool by providing a file, hash, or IP address as input.
+
+```powershell
+python3 vt_ip_analyzer.py <file | hash | ip>
+```
+
+## Examples
+
+```powershell
+python3 vt_ip_analyzer.py 8.8.8.8
+python3 vt_ip_analyzer.py suspicious_file.exe
+python3 vt_ip_analyzer.py e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+```
