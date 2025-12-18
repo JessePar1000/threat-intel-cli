@@ -27,3 +27,10 @@ actionable analysis workflow.
 git clone https://github.com/JessePar1000/threat-intel-cli.git
 cd threat-intel-cli
 python3 -m pip install -r requirements.txt
+```
+## Configuration
+
+This tool requires API keys for VirusTotal and AbuseIPDB.
+Set them as environment variables before running the script.
+
+# Linux / macOS
