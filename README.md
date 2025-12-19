@@ -1,11 +1,10 @@
 # Threat Intel CLI
 
-Threat Intel CLI is a command-line tool designed for SOC and Incident Response
-analysts to perform threat intelligence enrichment on files, hashes, and IP
-addresses.
+Threat Intel CLI is a command-line tool designed for SOC and Incident Response analysts to perform threat intelligence enrichment on files, hashes, and IP addresses.
 
-It integrates multiple intelligence sources to provide a unified and
-actionable analysis workflow.
+It integrates multiple intelligence sources, including VirusTotal, AbuseIPDB, and RDAP, to provide a unified and actionable analysis workflow. When a threat is detected, the tool provides the corresponding URLs from these services for further investigation.
+
+Security note: API keys are automatically read from the system environment, so there is no need to include sensitive credentials in the code.
 
 ## Features
 
